@@ -8,7 +8,8 @@ function App() {
 
   return (
     <>
-      <h1>Hello world</h1>
+      <h1 style={{color:"blue"}}>Hello world <br />
+      Welcome to my first app</h1>
     </>
   )
 }
