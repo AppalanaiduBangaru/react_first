@@ -1,17 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function Homepage(){
   return (
-    <>
-      <h1 style={{color:"blue"}}>Hello world <br />
-      Welcome to my first app</h1>
-    </>
+    <div>
+      <h1 style={{color:"blue"}}>header</h1>
+      <p style={{color:"red"}}>Paragraph</p>
+      <button style={{color:"green"}}>Click</button>
+    </div>
   )
 }
 
-export default App
+export default Homepage

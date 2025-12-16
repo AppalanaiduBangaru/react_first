@@ -1,0 +1,21 @@
+
+
+
+.card{
+    border: 1px solid black;
+    height: 600px;
+    width: 300px;
+    overflow: hidden;
+    margin:1px;
+   
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+#container{
+ display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
